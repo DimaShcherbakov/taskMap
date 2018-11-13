@@ -75,7 +75,7 @@
             return uniqueArray.join("");
         }
     }
-    var map = new Globe(listOfCities);
+    let map = new Globe(listOfCities);
     map.theMostDistanceCity("northernmost");
     map.theMostDistanceCity("easternmost");
     map.theMostDistanceCity("southernmost");
